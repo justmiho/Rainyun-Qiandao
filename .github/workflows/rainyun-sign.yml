@@ -76,6 +76,9 @@ jobs:
 
           # 7. Server 酱推送 - 可选配置
           PUSH_KEY: ${{ secrets.PUSH_KEY }}  # Server 酱密钥（兼容旧版/Turbo版）
+          # 8. 企业微信应用推送 - 可选配置
+          QYWX_AM: ${{ secrets.QYWX_AM }}
+          QYWX_ORIGIN: ${{ secrets.QYWX_ORIGIN }}
           
           # 设置无头模式环境变量
           HEADLESS: "true"
